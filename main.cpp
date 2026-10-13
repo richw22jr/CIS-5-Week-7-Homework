@@ -36,8 +36,8 @@ int main() {
    {
     evens = values[i]%2;
     if (evens != 0)
-    {
-      cout << values[i] << " ";
+    { odds = values[i];
+      cout << odds << " ";
     }
    }
    cout << endl;
